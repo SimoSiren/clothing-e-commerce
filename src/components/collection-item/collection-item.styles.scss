@@ -11,7 +11,14 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
-  }
+    overflow: hidden;
+
+    &:hover {
+        transform: scale(1.03);
+        transition: transform 0.2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      }
+    }
+  
 
   .collection-footer {
     width: 100%;
