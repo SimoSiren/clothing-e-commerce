@@ -6,6 +6,9 @@ const INITIAL_STATE = {
   cartItems: []
 }
 
+//ADD_ITEM käyttää cart.utils tiedoston funktiota, jossa tarkistetaan
+//onko tuote jo ostoskorissa
+
 const cartReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case CartActionTypes.TOGGLE_CART_HIDDEN:
