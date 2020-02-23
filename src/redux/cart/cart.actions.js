@@ -1,5 +1,6 @@
 import CartActionTypes from './cart.types';
 
+//Ei tarvita payloadia, koska tila on aina käänteinen edeltävään tilaan true / false
 export const toggleCartHidden = () => ({
   type: CartActionTypes.TOGGLE_CART_HIDDEN
 });

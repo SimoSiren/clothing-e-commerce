@@ -1,3 +1,7 @@
+/*Täällä on logiikka siitä miten lisäys ja poisto kulloisessakin tilanteessa
+tehdään. Esim. jos tuote on jo korissa, tuoteobjectia ei lisätä, vaan aletaan kasvattaa tuoteobjektin määräominaisuutta, ja vähennettäessä
+lukumäärää kun viimeinen kpl poistuu korista niin poistetaan tuoteobjekti korista kokonaan.*/
+
 export const addItemToCart = (cartItems, cartItemToAdd) => {
   const existingCartItem = cartItems.find(
     cartItem => cartItem.id === cartItemToAdd.id
