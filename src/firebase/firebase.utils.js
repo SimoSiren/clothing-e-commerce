@@ -3,13 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyDj5C7C1uc96IL7OS525rPOXloEalRGE7Y",
-  authDomain: "e-vaatekauppa.firebaseapp.com",
-  databaseURL: "https://e-vaatekauppa.firebaseio.com",
-  projectId: "e-vaatekauppa",
-  storageBucket: "e-vaatekauppa.appspot.com",
-  messagingSenderId: "892936829687",
-  appId: "1:892936829687:web:6d4deab88c258f684c31f2"
+ bööö
 };
 
 firebase.initializeApp(config);
